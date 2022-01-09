@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+body {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+	text-align: center;
+	border: solid 5px black;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+}
+
+.lin1 {
+	border-left: double 20px red;
+	border-top: double 20px red;
+}
+
+.lin2 {
+	border-top: dashed blue;
+	border-left: solid 40px green;
+	border-bottom: dashed 20px blue;
+	border-right: dashed 10px green;
+}
+
+.lin3 {
+	border-top: double 40px yellow;
+	border-left: double 10px yellow;
+	border-bottom: double 40px yellow;
+	border-right: double 10px yellow;
+}
+.lin4{
+	border-top: solid 20px green;
+	border-bottom:solid 20px blue; 
+	}
+	
+.lin5{
+	border-top: dashed 40px red; 
+	border-left: solid 40px black;
+	border-right: solid 40px black;
+	border-bottom: dotted 40px black;
+}
+.lin6{
+	border-top: dotted 10px black;
+	border-left: double 40px red;
+	border-right: solid 40px black;
+	border-bottom: dashed 20px black;
+}
